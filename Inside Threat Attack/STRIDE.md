@@ -1,4 +1,5 @@
-Diagram that reflects the current controls in place for CareConnect360, focusing on mitigating risks associated with Insider Threat Attacks and other relevant security threats using the STRIDE framework.
+# Diagram Reflecting Current Controls for CareConnect360
+## Focus: Mitigating Risks Associated with Inside Threat Attacks Using STRIDE Framework
 
 ```mermaid
 

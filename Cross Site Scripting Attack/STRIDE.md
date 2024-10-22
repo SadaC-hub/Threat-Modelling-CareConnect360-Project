@@ -1,4 +1,5 @@
-Diagram that reflects the current controls in place for CareConnect360, focusing on mitigating risks associated with cross-site scripting (XSS) and other relevant security threats using STRIDE 
+# Diagram Reflecting Current Controls for CareConnect360
+## Focus: Mitigating Risks Associated with Cross Site Scripting (XXS) Attacks Using STRIDE Framework
 
 
 ```mermaid
