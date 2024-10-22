@@ -40,3 +40,4 @@ flowchart TD
     L -->|Collect sensitive user information| N[Credential Theft]
 
     M -->|Achieve objectives| O[Actions on Objectives]
+
