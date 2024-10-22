@@ -1,4 +1,4 @@
-### Controls Required:
+### Controls Required for Mitigating Inside Threat Attack 
 
 - **Access Controls** to limit user permissions and ensure that only authorized personnel can access sensitive data and application functionalities.
 

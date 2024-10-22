@@ -1,4 +1,4 @@
-### Controls Required:
+### Controls Required for Mitigating Cross Site Scripting (XXS) Attack 
 
 - **Input validation and sanitization** to ensure all user inputs are properly checked and cleaned.
   
