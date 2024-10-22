@@ -1,5 +1,4 @@
-Diagram that reflects the current controls in place for CareConnect360, focusing on mitigating risks associated with cross-site scripting (XSS) and other relevant security threats using STRIDE 
-
+Diagram that reflects the current controls in place for CareConnect360, focusing on mitigating risks associated with Insider Threat Attacks and other relevant security threats using the STRIDE framework.
 
 ```mermaid
 
@@ -35,13 +34,14 @@ graph TD
     Control5([Control: Secure Cookies - HttpOnly]) --> F
     Control6([Control: Rate Limiting]) --> B
     Control7([Control: Role-Based Access Control]) --> I
+    Control8([Control: User Activity Monitoring]) --> H
 
-    %% STRIDE Threats Related to XSS
+    %% STRIDE Threats Related to Insider Attacks
 
     T1([Spoofing: Session Hijacking]) -.-> A
     T2([Tampering: Altering Content]) -.-> B
     T3([Repudiation: Deny Actions Taken]) -.-> H
-    T4([Information Disclosure: Stealing Cookies]) -.-> F
+    T4([Information Disclosure: Sensitive Data Exposure]) -.-> F
     T5([Denial of Service: Overloading Server]) -.-> B
     T6([Elevation of Privilege: Unauthorized Actions]) -.-> I
 
@@ -53,3 +53,5 @@ graph TD
     M4([Control: Secure Cookies - HttpOnly]) --> T4
     M5([Control: Rate Limiting]) --> T5
     M6([Control: Role-Based Access Control]) --> T6
+    M7([Control: User Activity Monitoring]) --> T1
+    M8([Control: Regular Security Audits]) --> T4
